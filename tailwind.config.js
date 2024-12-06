@@ -2,7 +2,6 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}", 
-    "./public/index.html",
   ],
   theme: {
     extend: {
@@ -16,14 +15,18 @@ module.exports = {
           xl: "1140px",
         },
         backgroundImage: {
-          'hero-bg': "url('src/assets/images/webp/hero-bg-image.webp')"
+          'hero-bg': "url('/assets/images/webp/hero-bg-image.webp')",
         },
+
         lineHeight: {
           'custom-xl': '110%',
           'custom-2xl': '150%',
         },
         colors: {
           'light-blue': '#00A8E8',
+        },
+        fontFamily: {
+          helvetica: ["helvetica", "sans-serif"],
         },
         fontSize: {
           'custom-xl': '64px',

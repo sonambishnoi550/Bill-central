@@ -4,16 +4,17 @@ import {ButtonArrowIcon} from '../utils/Icons';
 import heroImage from '../assets/images/webp/hero-image.webp';
 import dotsImage from '../assets/images/webp/dodo-logo.webp';
 import Header from '../common/Header';
+import heroBgImage from '../assets/images/webp/hero-bg-image.webp';
 
 const Hero = () => {
   return (
-    <div className="bg-hero-bg bg-cover bg-no-repeat max-2xl:bg-contain max-xl:bg-cover bg-top bg-light-blue">
+    <div className="bg-hero-bg bg-cover bg-no-repeat max-2xl:bg-contain max-xl:bg-cover bg-top bg-light-blue" style={{ backgroundImage: `url(${heroBgImage})` }}>
       <Header/>
       <div className="container pt-[109px] max-lg:pt-20 max-md:pt-12 max-sm:pt-8">
         <div className="flex max-lg:flex-col gap-8">
           <div className="lg:w-6/12 w-full text-center lg:text-left flex justify-center">
             <div>
-              <h1 className="text-custom-xl font-normal text-white leading-custom-xl max-lg:text-5xl max-md:text-4xl max-sm:text-3xl">
+              <h1 className="text-6xl font-normal text-white leading-custom-xl max-lg:text-5xl max-md:text-4xl max-sm:text-3xl">
                 Easily Compare <span className="font-bold">Energy, Gas, and Internet</span> Plans
               </h1>
               <p className="text-base font-normal text-white leading-custom-2xl pt-4 pb-[42px] max-lg:pb-6 max-md:text-sm max-sm:pt-2">
@@ -32,11 +33,11 @@ const Hero = () => {
                 <CustomButton label="Compare" icon={<ButtonArrowIcon />} />
               </div>
             </div>
-            <div className="pt-6">
+            {/* <div className="pt-6">
               <p className="font-normal text-black !text-custom-lg max-md:text-3xl max-sm:text-2xl">
                 More than <span className="text-light-blue">80,000</span>+ companies trust Bill Central
               </p>
-            </div>
+            </div> */}
           </div>
           <div className="lg:w-6/12 w-full flex justify-center items-center relative">
             <img className="absolute left-[40%'" src={dotsImage} alt="Background dots" />
@@ -44,7 +45,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div
+    </div>
   );
 };
 
