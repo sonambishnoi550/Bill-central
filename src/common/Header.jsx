@@ -46,7 +46,7 @@ const Header = () => {
                 </div>
                 <div onClick={toggleSidebar} className='z-[15] flex-col gap-1 lg:hidden flex'>
                     <span className={`${open ? 'w-8 h-1 bg-white rotate-45 translate-y-3 duration-300 ease-linear rounded' : 'w-8 h-1 bg-white duration-300 ease-linear rounded'}`}></span>
-                    <span className={`${open ? 'w-8 h-1 bg-white -translate-x-10 opacity-0 ' : 'w-8 h-1 bg-white'}`}></span>
+                    <span className={`${open ? 'w-8 h-1 bg-white -translate-x-10 opacity-0 ' : 'w-8 h-1 rounded bg-white'}`}></span>
                     <span className={`${open ? 'w-8 h-1 bg-white -rotate-45 -translate-y-1 duration-300 ease-linear rounded' : 'w-8 h-1 bg-white duration-300 ease-linear rounded'}`}></span>
                 </div>
             </div>
