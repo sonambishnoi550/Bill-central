@@ -29,7 +29,7 @@ const Hero = () => {
           </div>
           <div className="lg:w-6/12 w-full flex justify-center items-center relative">
             <img className="absolute right-[-13%] top-[-8%]  max-w-[200px] max-xl:hidden" src={dotsImage} alt="Background dots" />
-            <img className="max-w-[558px] w-full relative z-10" src={heroImage} alt="Hero section" />
+            <img className="max-w-[558px] w-full relative z-10 max-xl:z-0" src={heroImage} alt="Hero section" />
           </div>
         </div>
       </div>
