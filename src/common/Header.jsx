@@ -33,16 +33,16 @@ const Header = () => {
                     {HEADER_ITEM.map((obj, i) => (
                         <div key={i}>
                             <ul>
-                                <li className='flex gap-1 flex-row justify-center items-center relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:h-0.5  pb-0.5'>
-                                    <a onClick={closeNavbar} href={obj.link} className=' text-base font-normal text-gray-300'>{obj.item}</a>
+                                <li className='flex gap-1 flex-row justify-center items-center relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:h-0.5 after:bg-white pb-0.5'>
+                                    <a onClick={closeNavbar} href={obj.link} className=' text-base font-normal text-white'>{obj.item}</a>
                                 </li>
                             </ul>
                         </div>
                     ))}
-                    <button className='lg:hidden text-base font-bold rounded-full rounded-tl-none bg-white py-3 px-5 flex items-center text-black gap-1'>Get Started <HeaderArrowIcon /></button>
+                    <button className='lg:hidden text-base font-bold rounded-full rounded-tl-none bg-white py-3 px-[22px] flex items-center text-black gap-1'>Get Started <HeaderArrowIcon /></button>
                 </div>
                 <div>
-                    <button className='max-lg:hidden text-base font-bold rounded-full rounded-tl-none bg-white py-3 px-5 flex items-center text-black gap-1'>Get Started <HeaderArrowIcon /></button>
+                    <button className='max-lg:hidden text-base font-bold rounded-full rounded-tl-none bg-white py-3 hover:rounded-br transition-all duration-700 px-[22px] flex items-center text-black gap-1'>Get Started <HeaderArrowIcon /></button>
                 </div>
                 <div onClick={toggleSidebar} className='z-[15] flex-col gap-1 lg:hidden flex'>
                     <span className={`${open ? 'w-8 h-1 bg-white rotate-45 translate-y-3 duration-300 ease-linear rounded' : 'w-8 h-1 bg-white duration-300 ease-linear rounded'}`}></span>
