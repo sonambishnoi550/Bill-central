@@ -20,7 +20,8 @@ module.exports = {
           'custom-2xl': '150%',
         },
         colors: {
-          'light-blue': '#00A8E8',
+          lightblue: '#00A8E8',
+          prussianBlue: '#003459',
         },
         fontSize: {
           'custom-xl': '64px',

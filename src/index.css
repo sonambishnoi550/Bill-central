@@ -9,3 +9,10 @@
 body {
     font-family: 'helvetica', sans-serif;
 }
+
+@media (max-width:770px){
+.slick-list .slick-track{
+  display: flex;
+  gap: 6px;
+}
+}

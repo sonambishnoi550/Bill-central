@@ -43,8 +43,8 @@ export const BENEFITS = [
 ]; 
 
 export const STEPS = [
-    { src: './assets/images/webp/switch-step-one.webp', alt: 'step-one' },
-    { src: './assets/images/webp/switch-step-two.webp', alt: 'step-two' },
-    { src: './assets/images/webp/switch-step-three.webp', alt: 'step-three' },
-    { src: './assets/images/webp/switch-step-four.webp', alt: 'step-four' },
+    { src: '/assets/images/webp/switch-step-one.webp', alt: 'step-one' },
+    { src: '/assets/images/webp/switch-step-two.webp', alt: 'step-two' },
+    { src: '/assets/images/webp/switch-step-three.webp', alt: 'step-three' },
+    { src: '/assets/images/webp/switch-step-four.webp', alt: 'step-four' },
 ];
