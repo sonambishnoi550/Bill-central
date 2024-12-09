@@ -1,7 +1,7 @@
 export const HEADER_LIST = [
     {
         item: 'About',
-        link:"#about"
+        link: "#about"
     },
     {
         item: 'How It Works',
@@ -25,9 +25,16 @@ export const HEADER_LIST = [
     },
  
 
-]
+];
 export const BENEFITS = [
     'Save money by finding cheaper deals.',
     'Get better customer service.',
     'Explore greener, more sustainable energy options.',
-]
+]; 
+
+export const STEPS = [
+    { src: './assets/images/webp/switch-step-one.webp', alt: 'step-one' },
+    { src: './assets/images/webp/switch-step-two.webp', alt: 'step-two' },
+    { src: './assets/images/webp/switch-step-three.webp', alt: 'step-three' },
+    { src: './assets/images/webp/switch-step-four.webp', alt: 'step-four' },
+];
