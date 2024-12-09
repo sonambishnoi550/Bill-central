@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { HEADER_ITEM } from '../utils/Helper';
+import { HEADER_LIST } from '../utils/Helper';
 import { HeaderArrowIcon } from '../utils/Icons';
 
 
@@ -30,7 +30,7 @@ const Header = () => {
                     <a href="#"><img className='max-w-[105px]' src="./assets/images/webp/header-logo.webp" alt="logo" /></a>
                 </div>
                 <div className={`flex gap-6 max-lg:flex-col max-lg:justify-center max-lg:items-center ${open ? 'max-lg:z-10 max-lg:translate-x-0 max-lg:bg-black max-lg:fixed max-lg:top-0 max-lg:left-0 max-lg:h-full max-lg:w-full justify-center items-center' : 'max-lg:-left-full max-lg:hidden'}`}>
-                    {HEADER_ITEM.map((obj, i) => (
+                    {HEADER_LIST.map((obj, i) => (
                         <div key={i}>
                             <ul>
                                 <li className='flex gap-1 flex-row justify-center items-center relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:h-0.5 after:bg-white pb-0.5'>

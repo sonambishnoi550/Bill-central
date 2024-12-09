@@ -14,9 +14,6 @@ module.exports = {
           lg: "1024px",
           xl: "1140px",
         },
-        // backgroundImage: {
-        //   'hero-bg': "url('/assets/images/webp/hero-bg-image.webp')",
-        // },
 
         lineHeight: {
           'custom-xl': '110%',
@@ -25,9 +22,6 @@ module.exports = {
         colors: {
           'light-blue': '#00A8E8',
         },
-        // fontFamily: {
-        //   helvetica: ["helvetica", "sans-serif"],
-        // },
         fontSize: {
           'custom-xl': '64px',
           'custom-lg': '38px'
