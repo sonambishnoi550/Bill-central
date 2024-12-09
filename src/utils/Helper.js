@@ -26,3 +26,8 @@ export const HEADER_LIST = [
  
 
 ]
+export const BENEFITS = [
+    'Save money by finding cheaper deals.',
+    'Get better customer service.',
+    'Explore greener, more sustainable energy options.',
+]
