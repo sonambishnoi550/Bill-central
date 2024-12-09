@@ -22,8 +22,8 @@ const Hero = () => {
               </div>         
           </div>
           <div className="lg:w-6/12 w-full flex justify-center items-center relative">
-            <img className="absolute right-[-13%] top-[-8%] max-w-[200px] max-xl:hidden" src="./assets/images/webp/hero-dots-image.webp" alt="Background dots" />
-            <img className="max-w-[558px] max-lg:max-w-[473px] max-lg:w-full relative z-10 max-xl:z-0" src="./assets/images/webp/hero-image.webp" alt="Hero section" />
+            <img className="absolute right-[-13%] top-[-8%] max-w-[200px] max-xl:hidden pointer-events-none" src="./assets/images/webp/hero-dots-image.webp" alt="Background dots" />
+            <img className="max-w-[558px] max-xl:max-w-[473px] max-lg:w-full relative z-10 max-xl:z-0 pointer-events-none" src="./assets/images/webp/hero-image.webp" alt="Hero section" />
           </div>
         </div>
       </div>
