@@ -16,3 +16,16 @@ body {
   gap: 6px;
 }
 }
+.scrollbar-hidden {
+  overflow-x: auto;
+
+  &::-webkit-scrollbar {
+    display: none;
+
+    display: none !important;
+  }
+
+  scrollbar-width: none;
+
+  overscroll-behavior-x: contain;
+}

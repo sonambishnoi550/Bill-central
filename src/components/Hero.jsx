@@ -17,7 +17,7 @@ const Hero = () => {
                 Find and switch to the best energy, gas, and internet plans with ease. Our platform simplifies your search, letting you compare providers and make informed decisions, all in one place.
               </p>
               <div className='flex p-[9px] pl-[22px] bg-white rounded-full rounded-tl-none items-center max-w-[476px] justify-between max-sm:pl-3 max-lg:mx-auto'>
-                <input type="text" placeholder='Start typing your address ' className='placeholder:text-gray-500 placeholder:text-base placeholder:font-normal w-full !outline-none !bg-transparent placeholder:max-sm:text-sm mr-2' />
+                <input type="text" placeholder='Start typing your address ' className='placeholder:text-gray-500 placeholder:text-base placeholder:font-normal w-full !outline-none !bg-transparent placeholder:max-lg:text-sm mr-2' />
               <CustomButton CustomButton="Compare" ButtonArrow={<ButtonArrow />} />
               </div>         
           </div>
