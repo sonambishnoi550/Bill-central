@@ -5,7 +5,7 @@ import Header from '../common/Header';
 
 const Hero = () => {
   return (
-    <div className="bg-hero-bg bg-cover bg-no-repeat max-2xl:bg-contain bg-top max-xl:bg-cover bg-light-blue max-lg:pb-12" style={{ backgroundImage: `url(./assets/images/webp/hero-bg-image.webp)` }}>
+    <div className="bg-hero-bg bg-cover bg-no-repeat max-2xl:bg-contain bg-top max-xl:bg-cover  max-lg:pb-12" style={{ backgroundImage: `url(./assets/images/webp/hero-bg-image.webp)` }}>
       <Header />
       <div className="container pt-[109px] max-lg:pt-12 max-md:pt-[44px]">
         <div className="flex max-lg:flex-col gap-8 max-md:pt-[44px">
@@ -23,7 +23,7 @@ const Hero = () => {
           </div>
           <div className="lg:w-6/12 w-full flex justify-center items-center relative">
             <img className="absolute right-[-13%] top-[-8%] max-w-[200px] max-xl:hidden pointer-events-none" src="./assets/images/webp/hero-dots-image.webp" alt="Background dots" />
-            <img className="max-w-[558px] max-xl:max-w-[473px] max-lg:w-full relative z-10 max-xl:z-0 pointer-events-none" src="./assets/images/webp/hero-image.webp" alt="Hero section" />
+            <img className="max-w-[558px] max-xl:max-w-[473px] max-lg:w-full relative z-10 max-xl:z-0 pointer-events-none -mb-[63px] max-2xl:-mb-0" src="./assets/images/webp/hero-image.webp" alt="Hero section" />
           </div>
         </div>
       </div>
