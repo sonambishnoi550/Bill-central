@@ -16,16 +16,18 @@ body {
   gap: 6px;
 }
 }
-.scrollbar-hidden {
-  overflow-x: auto;
 
-  &::-webkit-scrollbar {
-    display: none;
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
 
-    display: none !important;
-  }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(103.58deg, #0078ff 6.83%, #37eebc 109.09%);
+  border-radius: 10px;
+}
 
-  scrollbar-width: none;
 
-  overscroll-behavior-x: contain;
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(103.58deg, #0078ff 6.83%, #37eebc 109.09%);
 }

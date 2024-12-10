@@ -24,8 +24,8 @@ const SimpleSteps = () => {
           }}
           className="mySwiper"
           breakpoints={{
-            320: { slidesPerView: 1, centeredSlides: true },
-            640: { slidesPerView: 2, centeredSlides: true },
+            320: { slidesPerView: 1, centeredSlides: false },
+            640: { slidesPerView: 2, centeredSlides: false },
             992: { slidesPerView: 3, centeredSlides: false },
             1200: { slidesPerView: 4, centeredSlides: false },
           }}
