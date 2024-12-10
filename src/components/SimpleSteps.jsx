@@ -1,7 +1,7 @@
 import React from 'react'
 import { STEPS } from '../utils/Helper'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination, Autoplay } from 'swiper/modules';
+import {  Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
@@ -16,14 +16,11 @@ const SimpleSteps = () => {
           Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum
         </p>
         <Swiper
-          pagination={{
-            dynamicBullets: true,
-          }}
           autoplay={{
             delay: 3000,
             disableOnInteraction: false, 
           }}
-          modules={[Pagination, Autoplay]} 
+          modules={[Autoplay]} 
           className="mySwiper"
           breakpoints={{
             320: {
@@ -53,7 +50,7 @@ const SimpleSteps = () => {
     alt={STEP.alt}
   />
   <div
-    className={`absolute inset-0 bg-[#003459] bg-opacity-85 group-hover:bg-opacity-0 transition-opacity duration-300`}
+    className={`absolute inset-0 bg-[#003459] bg-opacity-55 group-hover:bg-opacity-0 transition-opacity duration-300`}
   ></div>
 </div>
 
