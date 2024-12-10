@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Companies from './components/CompaniesLogo'
 import EnergyPlans from './components/EnergyPlans'
 import SimpleSteps from './components/SimpleSteps'
+import Comprehensive from './components/Comprehensive'
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
       <Hero />
       <Companies />
       <EnergyPlans />
-      <SimpleSteps/>
+      <SimpleSteps />
+      <Comprehensive/>
     </div>
   )
 }
