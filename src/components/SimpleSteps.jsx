@@ -1,7 +1,7 @@
-import React from 'react'
-import { STEPS } from '../utils/Helper'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import {  Autoplay } from 'swiper/modules';
+import React from 'react';
+import { SIMPLE_STEPS_LIST } from '../utils/Helper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
@@ -16,44 +16,34 @@ const SimpleSteps = () => {
           Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum
         </p>
         <Swiper
+        
+          modules={[ Autoplay]}
           autoplay={{
             delay: 3000,
-            disableOnInteraction: false, 
+            disableOnInteraction: false,
           }}
-          modules={[Autoplay]} 
           className="mySwiper"
           breakpoints={{
-            320: {
-              slidesPerView: 1,
-              centeredSlides: true,
-            },
-            640: {
-              slidesPerView: 2,
-              centeredSlides: true,
-            },
-            992: {
-              slidesPerView: 3,
-              centeredSlides: false,
-            },
-            1200: {
-              slidesPerView: 4,
-              centeredSlides: false,
-            },
+            320: { slidesPerView: 1, centeredSlides: true },
+            640: { slidesPerView: 2, centeredSlides: true },
+            992: { slidesPerView: 3, centeredSlides: false },
+            1200: { slidesPerView: 4, centeredSlides: false },
           }}
         >
-          {STEPS.map((STEP, index) => (
-            <SwiperSlide key={index}>
-              <div className="relative max-w-[360px] max-md:w-full max-xl:max-w-[340px] group">
-  <img
-    className={`w-full h-full object-cover`}
-    src={STEP.src}
-    alt={STEP.alt}
-  />
-  <div
-    className={`absolute inset-0 bg-[#003459] bg-opacity-55 group-hover:bg-opacity-0 transition-opacity duration-300`}
-  ></div>
-</div>
-
+          {SIMPLE_STEPS_LIST.map((obj, i) => (
+            <SwiperSlide key={i}>
+              <div className='relative group overflow-hidden max-md:max-h-[450px] max-w-[360px] w-full mx-auto'>
+                <img className='max-w-[360px] max-lg:w-full' src={obj.stepImg} alt={obj.alt} />
+                <div className='absolute group-hover:h-0 group-hover:w-0 group-hover:top-1/2 group-hover:left-full group-hover:translate-y-full group-hover:translate-x-[-50%] group-hover:opacity-100 group-hover:z-10 duration-500 ease-linear bg-[#EAF9FFF0] opacity-94 top-0 left-0 w-full h-full'>
+                  <div className='relative w-full h-full'>
+                    <p className={`absolute translate-x-[-50%] text-center leading-custom-2xl text-[32px] max-md:text-xl text-[#00171F] -rotate-90 min-w-[574px] group-hover:hidden ${i === 0 ? "top-1/2 left-1/2  " : i === 1 ? "top-[68%] left-1/2" : i === 2 ? "top-[74%] left-1/2 " : i === 3 ? "top-[65.5%] left-1/2" : ""}`}>{obj.imgContent}</p>
+                  </div>
+                </div>
+                <div className='bg-[#003459] absolute top-[-50%] group-hover:top-[73%] max-md:group-hover:top-[65%] group-hover:bottom-0 duration-500 ease-linear w-full p-8 max-md:p-3'>
+                  <h4 className='leading-[35.2px] text-[32px] font-normal pb-3 text-white max-md:text-2xl max-md:pb-1.5'>{obj.heading}</h4>
+                  <p className='leading-[25.6px] font-normal text-white text-base max-md:text-base'>{obj.description}</p>
+                </div>
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>
