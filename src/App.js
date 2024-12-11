@@ -2,11 +2,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/about/About';
-import HowItWorks from './components/about/HowItWorks';
-import Services from './components/about/Services';
-import Testimonials from './components/about/Testimonial';
-import WhyUs from './components/about/WhyUs';
-import FAQ from './components/about/FAQ';
+import HowItWorks from './components/howitworks/HowItWorks';
+import Services from './components/services/Services';
+import Testimonials from './components/testimonial/Testimonial';
+import WhyUs from './components/whyus/WhyUs';
+import FAQ from './components/faq/FAQ';
 import Home from './components/view/Home';
 
 function App() {
