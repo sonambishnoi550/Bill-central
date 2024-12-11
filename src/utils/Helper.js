@@ -106,4 +106,74 @@ export const planComparisons = [
         marginClass: 'ml-[220px] max-xl:ml-[175px] max-sm:ml-[61px] max-lg:ml-[375px]',
     },
 ];
+export const cardData = [
+    {
+        id: 1,
+        icon: './assets/images/svg/star-like.svg',
+        title: 'Tailored Recommendations',
+        description:
+            'Our platform analyzes your unique energy needs and preferences to suggest the best utility providers, ensuring you get the most personalized options available.',
+        isBlueBackground: true,
+    },
+    {
+        id: 2,
+        icon: './assets/images/svg/process.svg',
+        title: 'Simplified Comparison Process',
+        description:
+            'Our intuitive platform lets you compare the best utility providers in one place, helping you make a quick and informed decision.',
+    },
+    {
+        id: 3,
+        icon: './assets/images/svg/time.svg',
+        title: 'Save Time and Money',
+        description:
+            'With up-to-date plans and pricing, you can be sure you’re getting the most competitive rates available.',
+    },
+    {
+        id: 4,
+        icon: './assets/images/svg/no-service.svg',
+        title: 'No Service Interruptions',
+        description:
+            'We take care of the entire switching process so you can enjoy a hassle-free experience with zero downtime.',
+    },
+    {
+        id: 5,
+        icon: './assets/images/svg/support.svg',
+        title: 'Comprehensive Support',
+        description:
+            'Whether you need assistance selecting a plan or during the switch, our dedicated support team is here to help every step of the way.',
+    },
+];
+
+export const testimonialsData = [
+    {
+        name: 'Camron',
+        username: '@cameron',
+        image: './assets/images/svg/cameron.svg',
+        ratingImage: './assets/images/svg/five-star.svg',
+        text: 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio adipiscing elit vitae vestibulum vestibulum.'
+    },
+    {
+        name: 'Ronald',
+        username: '@ronald',
+        image: './assets/images/svg/ronald.svg',
+        ratingImage: './assets/images/svg/five-star.svg',
+        text: 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio adipiscing elit vitae vestibulum vestibulum.'
+    },
+    {
+        name: 'Jay Shah',
+        username: '@jayshah',
+        image: './assets/images/svg/jay.svg',
+        ratingImage: './assets/images/svg/five-star.svg',
+        text: 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio adipiscing elit vitae vestibulum vestibulum.'
+    },
+        {
+        name: 'Ronald',
+        username: '@ronald',
+        image: './assets/images/svg/ronald.svg',
+        ratingImage: './assets/images/svg/five-star.svg',
+        text: 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio adipiscing elit vitae vestibulum vestibulum.'
+    },
+    
+];
 

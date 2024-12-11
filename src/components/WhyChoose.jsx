@@ -1,48 +1,46 @@
 import React from 'react'
+import { cardData } from '../utils/Helper'
 
 const WhyChoose = () => {
   return (
-    <div>
+    <div className='lg:pt-[162px] md:pt-20 sm:pt-16 pt-10'>
       <div className="container">
-        <h2 className='font-normal text-5xl text-[#00171F leading-[52.8px] text-center'>Why Choose Us for <span className='font-bold'>Utilities</span> </h2>
-        <p className='text-base font-normal leading-[24px] max-w-[620px] text-center mx-auto pt-4 pb-[58px]'>This emphasizes both the action and the benefits, drawing in potential customers with a clear value proposition. Let me know if you'd like any adjustments!</p>
-        <div className='flex gap-6 justify-between'>
-          <div className='bg-[#003459] p-10'>
-            <img className='max-w-[232px]' src="./assets/images/svg/star-like.svg" alt="star-like" />
-            <h5 className='font-normal text-2xl leading-[26.4px] text-white pt-8'>Tailored Recommendations</h5>
-            <p className='font-normal text-base text-white max-w-[344px] pt-3 pb-[22px]'>Our platform analyzes your unique energy needs and preferences to suggest the best utility providers, ensuring you get the most personalized options available.</p>
-            <a href=""><img className='bg-white py-[22px] px-[26px] rounded-[446px]' src="./assets/images/svg/like-arrow.svg" alt="like-arrow" /></a>
-          </div>
-          <div className='flex-col  justify-between'>
-            <div className='border p-6 shadow-lg max-w-[334px] mb-6'>
-              <img className='max-w-[60px]' src="./assets/images/svg/process.svg" alt="star-like" />
-              <h5 className='font-normal text-2xl leading-[26.4px] text-black pt-[18px]'>Simplified Comparison Process</h5>
-              <p className='font-normal text-base text-black max-w-[286px] pt-3'>Our intuitive platform lets you compare the best utility providers in one place, helping you make a quick and informed decision.</p>
-            </div>
-            <div className='border p-6 shadow-lg max-w-[334px]'>
-              <img className='max-w-[60px]' src="./assets/images/svg/no-service.svg" alt="star-like" />
-              <h5 className='font-normal text-2xl leading-[26.4px] text-black pt-[18px] '>No Service Interruptions</h5>
-              <p className='font-normal text-base text-black max-w-[286px] pt-3 pb-[50px]'>We take care of the entire switching process so you can enjoy a hassle-free experience with zero downtime..</p>
-            </div>
-          </div>
-          <div className='flex-col justify-between'>
-            <div className='border p-6 shadow-lg max-w-[334px] mb-6'>
-              <img className='max-w-[60px]' src="./assets/images/svg/time.svg" alt="star-like" />
-              <h5 className='font-normal text-2xl leading-[26.4px] text-black pt-[18px]'>Save Time and Money</h5>
-              <p className='font-normal text-base text-black max-w-[286px] pt-3 pb-[50px] max-xl:pb-[23px]'>With up-to-date plans and pricing, you can be sure you’re getting the most competitive rates available.</p>
-            </div>
-            <div className='border p-6 shadow-lg max-w-[334px]'>
-              <img className='max-w-[60px]' src="./assets/images/svg/support.svg" alt="star-like" />
-              <h5 className='font-normal text-2xl leading-[26.4px] text-black pt-[18px]'>Comprehensive Support</h5>
-              <p className='font-normal text-base text-black max-w-[286px] pt-3 pb-[26px] max-xl:pb-0'>Whether you need assistance selecting a plan or during the switch, our dedicated support team is here to help every step of the way.</p>
+        <h2 className='font-normal text-5xl max-md:text-[32px] text-[#00171F] md:leading-[52.8px] pb-4 text-center'>
+          Why Choose Us for <span className='font-bold'>Utilities</span>
+        </h2>
+        <p className='pb-[58px] text-[#00171F] text-base font-normal max-w-[620px] text-center mx-auto'>
+          This emphasizes both the action and the benefits, drawing in potential customers with a clear value proposition. Let me know if you'd like any adjustments!
+        </p>
+        <div className="flex flex-col lg:flex-row gap-6">
+          <div className="bg-[#003459] p-10 rounded-md">
+            <div className="md:flex lg:flex-col justify-between">
+              <img src={cardData[0].icon} alt={cardData[0].title} className="xl:w-[277px] w-[200px]" />
+              <div className="flex-col">
+                <h3 className="font-normal text-2xl text-white pt-7 pb-3">{cardData[0].title}</h3>
+                <p className="font-normal text-base text-white xl:max-w-[344px] max-w-[300px]">{cardData[0].description}</p>
+                <a href="#">
+                  <img
+                    className="bg-white py-[22px] px-[24px] mt-[22px] rounded-[446px]"
+                    src="./assets/images/svg/like-arrow.svg"
+                    alt="right-arrow"
+                  />
+                </a>
+              </div>
             </div>
           </div>
-
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 flex-[2]">
+            {cardData.slice(1).map((card) => (
+              <div key={card.id} className="border shadow-lg rounded-md p-6">
+                <img src={card.icon} alt={card.title} />
+                <h3 className="font-normal text-2xl text-black pt-7 pb-3">{card.title}</h3>
+                <p className="font-normal text-base text-[#00171F]">{card.description}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-
     </div>
-  )
-}
+  );
+};
 
 export default WhyChoose
