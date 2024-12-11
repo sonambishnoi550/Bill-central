@@ -1,5 +1,5 @@
 import React from 'react';
-import { SIMPLE_STEPS_LIST } from '../utils/Helper';
+import { SIMPLE_STEPS_LIST } from '../../utils/Helper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';

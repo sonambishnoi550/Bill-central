@@ -1,7 +1,7 @@
 import React from 'react'
-import CustomButton from '../common/CustomButton';
-import { ButtonArrow } from '../utils/Icons';
-import { BENEFITS } from '../utils/Helper';
+import CustomButton from '../../common/CustomButton';
+import { ButtonArrow } from '../../utils/Icons';
+import { BENEFITS } from '../../utils/Helper';
 
 const EnergyPlans = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import { cardData } from '../utils/Helper'
+import { cardData } from '../../utils/Helper'
 
 const WhyChoose = () => {
   return (

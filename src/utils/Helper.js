@@ -1,27 +1,27 @@
 export const HEADER_LIST = [
     {
         item: 'About',
-        link: "#about"
+        link: "/about"
     },
     {
         item: 'How It Works',
-        link: "#it-works"
+        link: "/how-it-works"
     },
     {
         item: 'Services',
-        link: "#services"
+        link: "/services"
     },
     {
         item: 'Testimonials',
-        link: "#testimonials"
+        link: "/testimonials"
     },
     {
         item: 'Why Us',
-        link: "#why-us"
+        link: "/why-us"
     },
     {
         item: 'FAQ',
-        link: "#faq"
+        link: "/faq"
     },
  
 

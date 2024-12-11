@@ -1,7 +1,7 @@
 import React from 'react';
-import CustomButton from '../common/CustomButton';
-import { ButtonArrow } from '../utils/Icons';
-import Header from '../common/Header';
+import CustomButton from '../../common/CustomButton';
+import { ButtonArrow } from '../../utils/Icons';
+import Header from '../../common/Header';
 
 const Hero = () => {
   return (

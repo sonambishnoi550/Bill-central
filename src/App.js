@@ -1,24 +1,28 @@
-import React from 'react'
-import Hero from './components/Hero'
-import Companies from './components/CompaniesLogo'
-import EnergyPlans from './components/EnergyPlans'
-import SimpleSteps from './components/SimpleSteps'
-import Comprehensive from './components/Comprehensive'
-import WhyChoose from './components/WhyChoose'
-import Testimonials from './components/Testimonials'
 
-const App = () => {
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import About from './components/about/About';
+import HowItWorks from './components/about/HowItWorks';
+import Services from './components/about/Services';
+import Testimonials from './components/about/Testimonial';
+import WhyUs from './components/about/WhyUs';
+import FAQ from './components/about/FAQ';
+import Home from './components/view/Home';
+
+function App() {
   return (
-    <div>
-      <Hero />
-      <Companies />
-      <EnergyPlans />
-      <SimpleSteps />
-      <Comprehensive />
-      <WhyChoose />
-      <Testimonials/>
-    </div>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/how-it-works" element={<HowItWorks />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/testimonials" element={<Testimonials />} />
+        <Route path="/why-us" element={<WhyUs />} />
+        <Route path="/faq" element={<FAQ />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;

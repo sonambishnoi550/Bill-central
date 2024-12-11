@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { planComparisons } from '../utils/Helper';
+import { planComparisons } from '../../utils/Helper';
 
 const Comprehensive = () => {
   const [openSection, setOpenSection] = useState(null);
