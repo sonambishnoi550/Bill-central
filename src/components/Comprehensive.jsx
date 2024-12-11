@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { planComparisons } from '../utils/Helper'; // Ensure this file exports the data correctly
+import { planComparisons } from '../utils/Helper';
 
 const Comprehensive = () => {
   const [openSection, setOpenSection] = useState(null);
@@ -12,7 +12,6 @@ const Comprehensive = () => {
     <div className='py-[162px]'>
       <div className="container">
         <div className="lg:flex justify-between">
-          {/* Left Section */}
           <div className='lg:w-6/12 w-full'>
             <h2 className='font-normal text-5xl max-md:text-[32px] text-[#00171F] max-w-[456px] leading-[52.8px] pb-[46px]'>
               Comprehensive Utility <span className='font-bold'> Comparisons</span>
@@ -21,7 +20,7 @@ const Comprehensive = () => {
               {planComparisons.map((plan) => (
                 <div
                   key={plan.id}
-                  className="bg-white hover:shadow-md rounded-md p-[14px] border transition-all duration-700"
+                  className="bg-white hover:shadow-lg rounded-md p-[14px] border transition-all duration-700 ease-in-out"
                 >
                   <button
                     onClick={() => toggleMenu(plan.id)}
@@ -31,26 +30,37 @@ const Comprehensive = () => {
                     {plan.title}
                     <span className={`text-xl ${plan.marginClass}`}>
                       {openSection === plan.id ? (
-                        <img src="./assets/images/svg/open.svg" alt="Collapse" className="h-5 w-5" />
+                        <img
+                          src="./assets/images/svg/open.svg"
+                          alt="Collapse"
+                          className="h-5 w-5 transition-transform duration-700 transform rotate-0"
+                        />
                       ) : (
-                        <img src="./assets/images/svg/close.svg" alt="Expand" className="h-5 w-5" />
+                        <img
+                          src="./assets/images/svg/close.svg"
+                          alt="Expand"
+                          className="h-5 w-5 transition-transform duration-700 transform rotate-180"
+                        />
                       )}
                     </span>
                   </button>
-                  {openSection === plan.id && (
-                    <p className="mt-2 text-gray-600 text-base font-normal leading-[25.6px] ml-[87px]">
-                      {plan.description}
-                    </p>
-                  )}
+                  <div
+                    className={`transition-all duration-700 ease-in-out overflow-hidden ${openSection === plan.id ? 'max-h-[200px] opacity-100' : 'max-h-0 opacity-0'
+                      }`}
+                  >
+                    {openSection === plan.id && (
+                      <p className="mt-2 text-gray-600 text-base font-normal leading-[25.6px] ml-[87px]">
+                        {plan.description}
+                      </p>
+                    )}
+                  </div>
                 </div>
               ))}
             </div>
           </div>
-
-          {/* Right Section */}
           <div className='lg:w-6/12 flex justify-end max-lg:justify-center'>
             <img
-              className='max-w-[500px] xl:h-[535px] lg:h-[470px] max-xl:max-w-[470px] max-sm:max-w-[336px] mt-10'
+              className='max-w-[500px] xl:h-[535px] lg:h-[470px] max-xl:max-w-[470px] max-sm:max-w-[336px] pointer-events-none mt-10 transition-all duration-700 hover:scale-105'
               src="./assets/images/webp/interior-designer-image.webp"
               alt="designer"
             />
