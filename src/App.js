@@ -5,6 +5,7 @@ import EnergyPlans from './components/EnergyPlans'
 import SimpleSteps from './components/SimpleSteps'
 import Comprehensive from './components/Comprehensive'
 import WhyChoose from './components/WhyChoose'
+import Testimonials from './components/Testimonials'
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
       <EnergyPlans />
       <SimpleSteps />
       <Comprehensive />
-      <WhyChoose/>
+      <WhyChoose />
+      <Testimonials/>
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 const WhyChoose = () => {
   return (
-    <div className='pb-[162px]'>
+    <div>
       <div className="container">
         <h2 className='font-normal text-5xl text-[#00171F leading-[52.8px] text-center'>Why Choose Us for <span className='font-bold'>Utilities</span> </h2>
         <p className='text-base font-normal leading-[24px] max-w-[620px] text-center mx-auto pt-4 pb-[58px]'>This emphasizes both the action and the benefits, drawing in potential customers with a clear value proposition. Let me know if you'd like any adjustments!</p>
@@ -29,12 +29,12 @@ const WhyChoose = () => {
             <div className='border p-6 shadow-lg max-w-[334px] mb-6'>
               <img className='max-w-[60px]' src="./assets/images/svg/time.svg" alt="star-like" />
               <h5 className='font-normal text-2xl leading-[26.4px] text-black pt-[18px]'>Save Time and Money</h5>
-              <p className='font-normal text-base text-black max-w-[286px] pt-3 pb-[50px]'>With up-to-date plans and pricing, you can be sure you’re getting the most competitive rates available.</p>
+              <p className='font-normal text-base text-black max-w-[286px] pt-3 pb-[50px] max-xl:pb-[23px]'>With up-to-date plans and pricing, you can be sure you’re getting the most competitive rates available.</p>
             </div>
             <div className='border p-6 shadow-lg max-w-[334px]'>
               <img className='max-w-[60px]' src="./assets/images/svg/support.svg" alt="star-like" />
               <h5 className='font-normal text-2xl leading-[26.4px] text-black pt-[18px]'>Comprehensive Support</h5>
-              <p className='font-normal text-base text-black max-w-[286px] pt-3 pb-[26px]'>Whether you need assistance selecting a plan or during the switch, our dedicated support team is here to help every step of the way.</p>
+              <p className='font-normal text-base text-black max-w-[286px] pt-3 pb-[26px] max-xl:pb-0'>Whether you need assistance selecting a plan or during the switch, our dedicated support team is here to help every step of the way.</p>
             </div>
           </div>
 
