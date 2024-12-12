@@ -3,7 +3,7 @@ import { cardData } from '../../utils/Helper'
 
 const WhyChoose = () => {
   return (
-    <div className='pt-[162px] max-xl:pt-[80px] max-md:pt-16 max-sm:pt-[44px]'>
+    <div className='py-[162px] max-xl:py-[80px] max-md:py-16 max-sm:py-[44px]'>
       <div className="container">
         <h2 className='font-normal text-5xl max-md:text-[32px] text-[#00171F] md:leading-[52.8px] pb-4 text-center'>
           Why Choose Us for <span className='font-bold'>Utilities</span>

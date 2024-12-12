@@ -9,11 +9,11 @@ const Comprehensive = () => {
   };
 
   return (
-    <div >
+    <div className='pt-[162px] max-xl:pt-[80px] max-lg:pt-16'>
       <div className="container">
         <div className="lg:flex justify-between">
           <div className='lg:w-6/12 w-full'>
-            <h2 className='font-normal text-5xl max-md:text-[32px] text-[#00171F] max-w-[456px] leading-[52.8px] max-md:leading-10 pb-[46px] max-md:pb-6'>
+            <h2 className='font-normal text-5xl max-md:text-[32px] text-[#00171F] max-w-[456px] leading-[52.8px] max-md:leading-10 pb-[46px] max-md:pb-7'>
               Comprehensive Utility <span className='font-bold'> Comparisons</span>
             </h2>
             <div className="space-y-6">
