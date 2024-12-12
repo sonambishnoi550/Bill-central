@@ -1,12 +1,11 @@
 import React from 'react'
 import About from '../about/About'
-
-const Home = () => {
+const About = () => {
   return (
     <div>
-      <About />
+      <About/>
     </div>
   )
 }
 
-export default Home
+export default About
