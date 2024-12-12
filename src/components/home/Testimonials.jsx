@@ -10,7 +10,7 @@ const Testimonials = () => {
     <div className=':py-[162px] max-xl:py-[80px] max-md:py-16 max-sm:py-[44px]'>
       <div className="container">
         <h2 className='text-5xl font-normal max-md:text-[32px] leading-[52.8px] text-center pb-4 max-md:pb-2 text-black'>
-          Our <span>Testimonials</span>
+          Our <span className='font-bold'>Testimonials</span>
         </h2>
         <p className='font-normal text-base text-[#00171F] text-center max-w-[490px] mx-auto'>
           Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum
