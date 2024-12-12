@@ -33,13 +33,13 @@ const Comprehensive = () => {
                         <img
                           src="./assets/images/svg/open.svg"
                           alt="Collapse"
-                          className="h-5 w-5 transition-transform duration-700 transform rotate-180"
+                          className="h-5 w-5 transition-all duration-700 rotate-180"
                         />
                       ) : (
                         <img
                           src="./assets/images/svg/close.svg"
                           alt="Expand"
-                          className="h-5 w-5 transition-transform duration-700 transform rotate-0"
+                          className="h-5 w-5 transition-all duration-700 rotate-0"
                         />
                       )}
                     </span>
