@@ -11,6 +11,7 @@ const FAQ = () => {
   return (
     <div className="flex items-center justify-center pt-20">
       <div className="container mx-auto">
+        <h2 className='font-bold text-center text-5xl pb-5'>FAQ</h2>
         <div>
           {items.map((item, index) => (
             <div
