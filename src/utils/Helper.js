@@ -176,4 +176,19 @@ export const testimonialsData = [
     },
     
 ];
+export const items = [
+    {
+        title: "What is React?",
+        content: "React is a JavaScript library for building user interfaces."
+    },
+    {
+        title: "What is a component?",
+        content: "A component is a reusable piece of code that represents part of the user interface."
+    },
+    {
+        title: "What is state?",
+        content: "State is a built-in React object that is used to contain data or information about the component."
+    },
+];
+
 
