@@ -24,7 +24,6 @@ export const HEADER_LIST = [
         link: "/faq"
     },
  
-
 ];
 export const LOGOS = [
     { src: './assets/images/webp/first-energy-logo.webp', alt: 'first-energy' },
@@ -173,9 +172,9 @@ export const testimonialsData = [
         image: './assets/images/svg/ronald.svg',
         ratingImage: './assets/images/svg/five-star.svg',
         text: 'Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio adipiscing elit vitae vestibulum vestibulum.'
-    },
-    
+    },    
 ];
+
 export const items = [
     {
         title: "What is React?",
