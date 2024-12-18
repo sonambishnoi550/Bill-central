@@ -189,5 +189,25 @@ export const items = [
         content: "State is a built-in React object that is used to contain data or information about the component."
     },
 ];
+export  const LOREM_ITEM = [
+    {
+        id:"Lorem-one",
+        title: "Lorem",
+        description:
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque ab officiis earum similique minus, enim mollitia amet distinctio nulla. Sit ipsam maxime voluptates possimus ratione natus ea aliquam modi deleniti!",
+    },
+    {
+        id: "Lorem-two",
+        title: "Lorem",
+        description:
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque ab officiis earum similique minus, enim mollitia amet distinctio nulla. Sit ipsam maxime voluptates possimus ratione natus ea aliquam modi deleniti!",
+    },
+    {
+        id: "Lorem-three",
+        title: "Lorem",
+        description:
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque ab officiis earum similique minus, enim mollitia amet distinctio nulla. Sit ipsam maxime voluptates possimus ratione natus ea aliquam modi deleniti!",
+    },
+];
 
 
