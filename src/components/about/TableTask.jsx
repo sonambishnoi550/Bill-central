@@ -1,5 +1,5 @@
 import React from 'react';
-import { TABLE_LIST } from '../../utils/Helper';
+import { TABLE_ITEMS } from '../../utils/Helper';
 
 const TableTask = () => {
     return (
@@ -7,7 +7,7 @@ const TableTask = () => {
             <div className='py-14 px-4 rounded-xl max-w-[90vw] bg-sky'>
                 <div className='overflow-x-auto w-full'>
                     <div className='min-w-[580px]'>
-                        {TABLE_LIST.map((obj, i) => (
+                        {TABLE_ITEMS.map((obj, i) => (
                             <div key={i} className={`flex gap-2 ${i === 0 ? "border-none" : "border-t border-black"}`}>
                                 <div className={`${i === 0 ? "opacity-0" : ""} w-[140px] py-[18.8px] pr-12 pl-2`}>
                                     <p className="text-sm font-normal font-avantt text-white leading-4">{obj.service}</p>

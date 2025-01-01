@@ -209,7 +209,7 @@ export  const LOREM_ITEM = [
             "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque ab officiis earum similique minus, enim mollitia amet distinctio nulla. Sit ipsam maxime voluptates possimus ratione natus ea aliquam modi deleniti!",
     },
 ];
-export const TABLE_LIST = [
+export const TABLE_ITEMS = [
     {
         service: "service",
         rift: "Rift",
