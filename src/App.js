@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
-import AboutUs from './components/about/AboutUs';
+import About from './components/view/About';
 import HowItWorks from './components/howitworks/HowItWorks';
 import Services from './components/services/Services';
 import Testimonials from './components/testimonial/Testimonial';
@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about/:id" element={<AboutUs />} />
+        <Route path="/about" element={<About />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
         <Route path="/services" element={<Services />} />
         <Route path="/testimonials" element={<Testimonials />} />

@@ -14,20 +14,23 @@ module.exports = {
           lg: "1024px",
           xl: "1140px",
         },
-
+      },
         lineHeight: {
           'custom-xl': '110%',
           'custom-2xl': '150%',
         },
         colors: {
-          lightblue: '#00A8E8',
-          prussianBlue: '#003459',
+          lightblue: "#00A8E8",
+          prussianBlue: "#003459",
+          darkblue: "#191423",
+          sky: "#026070",
+          lightsky:'#56E3CB'
         },
-        fontSize: {
+      fontSize: {
+        'custom-sx': '8px',
           'custom-xl': '64px',
           'custom-lg': '38px'
         },
-      },
     },
   },
   plugins: [],
