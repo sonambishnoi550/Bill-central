@@ -209,3 +209,114 @@ export  const LOREM_ITEM = [
             "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque ab officiis earum similique minus, enim mollitia amet distinctio nulla. Sit ipsam maxime voluptates possimus ratione natus ea aliquam modi deleniti!",
     },
 ];
+export const TABLE_LIST = [
+    {
+        service: "service",
+        rift: "Rift",
+        taxscouts: "Taxcouts",
+        coconut: "Coconut",
+        pie: "Pie",
+    },
+    {
+        service: "Mobile App",
+        rift: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.14903 15.0135L4.09607 13.9605L8.3079 9.74867L4.09607 5.53684L5.14903 4.48389L9.36086 8.69572L13.5727 4.48389L14.6256 5.53684L10.4138 9.74867L14.6256 13.9605L13.5727 15.0135L9.36086 10.8016L5.14903 15.0135Z" fill="black" />
+        </svg>
+,
+        taxscouts: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.14903 15.0135L4.09607 13.9605L8.3079 9.74867L4.09607 5.53684L5.14903 4.48389L9.36086 8.69572L13.5727 4.48389L14.6256 5.53684L10.4138 9.74867L14.6256 13.9605L13.5727 15.0135L9.36086 10.8016L5.14903 15.0135Z" fill="black" />
+        </svg>
+,
+        coconut: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.8984 6.04848L7.30493 13.642L3.82458 10.1616L4.71682 9.26939L7.30493 11.8512L14.0062 5.15625L14.8984 6.04848Z" fill="black" />
+        </svg>
+,
+        pie: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.8984 6.04848L7.30493 13.642L3.82458 10.1616L4.71682 9.26939L7.30493 11.8512L14.0062 5.15625L14.8984 6.04848Z" fill="black" />
+        </svg>
+,
+    },
+    {
+        service: "Invoicing",
+        rift: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.14903 15.0135L4.09607 13.9605L8.3079 9.74867L4.09607 5.53684L5.14903 4.48389L9.36086 8.69572L13.5727 4.48389L14.6256 5.53684L10.4138 9.74867L14.6256 13.9605L13.5727 15.0135L9.36086 10.8016L5.14903 15.0135Z" fill="black" />
+        </svg>
+,
+        taxscouts: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.14903 15.0135L4.09607 13.9605L8.3079 9.74867L4.09607 5.53684L5.14903 4.48389L9.36086 8.69572L13.5727 4.48389L14.6256 5.53684L10.4138 9.74867L14.6256 13.9605L13.5727 15.0135L9.36086 10.8016L5.14903 15.0135Z" fill="black" />
+        </svg>
+,
+        coconut: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.8984 6.04848L7.30493 13.642L3.82458 10.1616L4.71682 9.26939L7.30493 11.8512L14.0062 5.15625L14.8984 6.04848Z" fill="black" />
+        </svg>
+,
+        pie: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.8984 6.04848L7.30493 13.642L3.82458 10.1616L4.71682 9.26939L7.30493 11.8512L14.0062 5.15625L14.8984 6.04848Z" fill="black" />
+        </svg>
+,
+    },
+    {
+        service: "Bookkeeping",
+        rift: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.14903 15.0135L4.09607 13.9605L8.3079 9.74867L4.09607 5.53684L5.14903 4.48389L9.36086 8.69572L13.5727 4.48389L14.6256 5.53684L10.4138 9.74867L14.6256 13.9605L13.5727 15.0135L9.36086 10.8016L5.14903 15.0135Z" fill="black" />
+        </svg>
+,
+        taxscouts: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.14903 15.0135L4.09607 13.9605L8.3079 9.74867L4.09607 5.53684L5.14903 4.48389L9.36086 8.69572L13.5727 4.48389L14.6256 5.53684L10.4138 9.74867L14.6256 13.9605L13.5727 15.0135L9.36086 10.8016L5.14903 15.0135Z" fill="black" />
+        </svg>
+,
+        coconut: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.8984 6.04848L7.30493 13.642L3.82458 10.1616L4.71682 9.26939L7.30493 11.8512L14.0062 5.15625L14.8984 6.04848Z" fill="black" />
+        </svg>
+,
+        pie: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.8984 6.04848L7.30493 13.642L3.82458 10.1616L4.71682 9.26939L7.30493 11.8512L14.0062 5.15625L14.8984 6.04848Z" fill="black" />
+        </svg>
+,
+    },
+    {
+        service: "Accountacy support",
+        rift: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.8984 6.04848L7.30493 13.642L3.82458 10.1616L4.71682 9.26939L7.30493 11.8512L14.0062 5.15625L14.8984 6.04848Z" fill="black" />
+        </svg>
+,
+        taxscouts: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.8984 6.04848L7.30493 13.642L3.82458 10.1616L4.71682 9.26939L7.30493 11.8512L14.0062 5.15625L14.8984 6.04848Z" fill="black" />
+        </svg>
+,
+        coconut: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.14903 15.0135L4.09607 13.9605L8.3079 9.74867L4.09607 5.53684L5.14903 4.48389L9.36086 8.69572L13.5727 4.48389L14.6256 5.53684L10.4138 9.74867L14.6256 13.9605L13.5727 15.0135L9.36086 10.8016L5.14903 15.0135Z" fill="black" />
+        </svg>
+,
+        pie: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.8984 6.04848L7.30493 13.642L3.82458 10.1616L4.71682 9.26939L7.30493 11.8512L14.0062 5.15625L14.8984 6.04848Z" fill="black" />
+        </svg>
+,
+    },
+    {
+        service: "Tax Filing",
+        rift: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.8984 6.04848L7.30493 13.642L3.82458 10.1616L4.71682 9.26939L7.30493 11.8512L14.0062 5.15625L14.8984 6.04848Z" fill="black" />
+        </svg>
+,
+        taxscouts: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.8984 6.04848L7.30493 13.642L3.82458 10.1616L4.71682 9.26939L7.30493 11.8512L14.0062 5.15625L14.8984 6.04848Z" fill="black" />
+        </svg>
+,
+        coconut: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.8984 6.04848L7.30493 13.642L3.82458 10.1616L4.71682 9.26939L7.30493 11.8512L14.0062 5.15625L14.8984 6.04848Z" fill="black" />
+        </svg>
+,
+        pie: <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.8984 6.04848L7.30493 13.642L3.82458 10.1616L4.71682 9.26939L7.30493 11.8512L14.0062 5.15625L14.8984 6.04848Z" fill="black" />
+        </svg>
+,
+    },
+    {
+        service: "Fee",
+        rift: "Est: £300 per year",
+        taxscouts: "£300 per year",
+        coconut: "£9.00 p/m £108 per year",
+        pie: "£6.99 or £9.99p/m £59.99 review fee £143.87 per year",
+    },
+];

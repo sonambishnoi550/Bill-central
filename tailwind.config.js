@@ -18,7 +18,11 @@ module.exports = {
         lineHeight: {
           'custom-xl': '110%',
           'custom-2xl': '150%',
-        },
+      },
+      fontFamily: {
+        'avantt': "'avantt',sans-serif",
+
+      },
         colors: {
           lightblue: "#00A8E8",
           prussianBlue: "#003459",
